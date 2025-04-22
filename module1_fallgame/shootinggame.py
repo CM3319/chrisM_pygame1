@@ -2,6 +2,7 @@ import pygame
 import random
 
 
+
 pygame.init()
 
 screen = pygame.display.set_mode(800,600)
@@ -58,7 +59,7 @@ class Enemy():
 
 # all_sprites = pygame.sprite.Group()
 player = Player()
-all_sprites.add(player)
+# all sprites.add(player)
 
 
 bullets = pygame.sprite.Group()
@@ -69,7 +70,7 @@ enemies = pygame.sprite.Group()
 
 for __ in range(5):
     enemy = Enemy()
-    all_sprites.add(enemy)
+    # all_sprites.add(enemy)
     enemies.add(enemy)
 
 
