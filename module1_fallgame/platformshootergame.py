@@ -105,3 +105,6 @@ class Soldier(pygame.sprite.Sprite):
 		self.image = self.animation_list[self.action][self.frame_index]
 		self.rect = self.image.get_rect()
 		self.rect.center = (x, y)
+
+
+		
